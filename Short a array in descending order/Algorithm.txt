@@ -1,0 +1,14 @@
+Step 1: START
+Step 2: INPUT n - size of array, arr - array to be sorted
+Step 3: SET i=0, j=0
+Step 4: WHILE i<n-1 DO
+           WHILE j<n-1-i DO
+                IF arr[j]<arr[j+1] THEN
+                   SWIPE ELEMENT
+                [END IF]
+                j=j+1
+          [END WHILE]
+          i=i+1
+       [END WHILE]
+Step 5: OUTPUT arr is sorted in descending order
+Step 6: END
