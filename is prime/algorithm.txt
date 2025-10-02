@@ -1,0 +1,22 @@
+Step 1: START
+Step 2: READ n
+Step 3: SET f=1 AND i=5
+Step 4: IF n<=1 THEN
+            RETURN f=0
+        [END IF]
+Step 5: IF n==2 OR n==3 THEN
+            RETURN f=1
+        [END IF]
+Step 6: IF n%2==0 OR n%3==0 THEN
+            RETURN f=0
+        [END IF]
+Step 7: WHILE i*i<=n DO
+            IF n%i==0 THEN
+               RETURN f=0
+            [END IF]
+        [END WHILE]
+Step 8: IF f==1 THEN
+            OUTPUT "Prime"
+        ELSE
+            OUTPUT "Not Prime"
+Step 9: END
